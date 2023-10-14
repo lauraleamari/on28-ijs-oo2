@@ -1,0 +1,1 @@
+- instanceof sempre vai retornar true ou false
