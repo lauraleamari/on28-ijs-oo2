@@ -66,7 +66,7 @@ O que veremos na aula de hoje?
 ## Recapitulando...
 A programação orientada a objetos é um paradigma de programação que fornece um modelo no qual um programa é uma coleção de objetos que interagem entre si, passando mensagens que transformam seu estado.
 
-Neste caso, todos os objetos possuem determinados estados e comportamentos. Enquanto os estados são descritos pelas classes como **atributos**, a forma como eles se comportam é definida por meio de **métodos**. 
+Neste caso, todos os objetos possuem determinados estados e comportamentos. Enquanto os estados são descritos pelas classes como **atributos**, a forma como eles se comportam é definida por meio de **métodos**.
 
 ### Estrutura da POO
 A Programação Orientada a Objetos possui dois pilares de sustentação: a utilização de classes e objetos.
@@ -92,7 +92,7 @@ class Funcionario {
   nome;
   #salario;
 
-  static funcionarios = [];
+  static funcionarios = []; // é da classe e não do objeto, por isso que usa static
 
   constructor(nome, salario) {
     this.nome = nome;
